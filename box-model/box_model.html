@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>boxes</title>
+    <style>
+        .outer-box {
+            border: 4px dotted red; 
+            padding: 20px;
+            position: relative;
+            width: 60%;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .middle-box {
+            border: 5px solid orange;
+            padding: 20px;
+            position: relative;
+            width: 70%;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .inner-box {
+            background-color: yellow;
+            padding: 30px;
+        }
+
+        .blue-box {
+            background-color: blue;
+            position: absolute;
+            top: 10px;
+            bottom: 10px;
+            width: 100px;
+            left: calc(50% - 50px);
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-box">
+        <div class="middle-box">
+            <div class="inner-box">
+
+            </div>
+        </div>
+        <div class="blue-box">
+            
+        </div>
+    </div>
+</body>
+</html>
