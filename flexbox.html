@@ -1,0 +1,161 @@
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+     .header{
+        height: 60px;
+        background-color: rgb(54, 56, 64);
+        width: 100%;
+        display: flex;
+        justify-content:  space-between;
+
+     }
+     .logo {
+      display: inline-block;
+      margin: auto;
+      padding: 20px;
+      color: #fff;
+      font-size: large;
+
+     }
+     .right{
+        font-size: xx-small;
+        
+     }
+
+
+
+        </style>
+    <title>Document</title>
+</head>
+<body>
+        <div class = "header" >
+            <ul>
+                <li>
+                    <div class = "logo" >
+                        Company Logo
+                        </div>  
+                </li>
+                <li>
+                    <div class = "right">
+                        <ul>
+                         <li>
+                           Home  
+                         </li>
+                         <li>
+                           About Us
+                         </li> 
+                         <li>
+                           Contact
+                         </li>
+                        </ul>
+                </li>
+            </ul>
+        </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .nav{
+            display: flex;
+            justify-content: space-between;
+            height: 60px;
+            padding: 5px;
+            background-color: rgb(34, 50, 71);
+            align-items: center;
+            color: white;
+        }
+        .nav .left{
+            display: flex;
+        }
+        .nav .left h3{
+            margin: 10px;
+        }
+        .nav .left img{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+
+        }
+        .nav ul li{
+            list-style: none;
+        }
+        .outer{
+            margin: 32vh 33vw;
+            /* background-color: aqua; */
+            display: flex;
+            padding: 10px;
+            border: 2px solid rgb(235, 235, 235);
+        }
+        .outer .innleft{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(219, 216, 216);
+        }
+        .innleft img{
+            height: 100px;
+            width: 100px;
+        }
+        .outer .innrigh{
+            padding: 0px 5px;
+            
+        }
+
+        .footer{
+            background-color: rgb(34, 50, 71);
+            
+            width: 100%;
+            height: 77px;
+            position: fixed;
+            align-items: center;
+            color: white;
+            padding: 30px 600px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="left">
+            <img src="https://images.pexels.com/photos/1266810/pexels-photo-1266810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            <h3>BRAND</h3>
+        </div>
+        <div class="right">
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="outer">
+            <div class="innleft">
+                <img src="https://images.pexels.com/photos/1266810/pexels-photo-1266810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+            </div>
+            <div class="innrigh">
+                <h3>Product Name</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <br>
+                <p>Price: Rs150</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Contact us at:example@gmail.com</p>
+    </div>
+</body>
+</html>
